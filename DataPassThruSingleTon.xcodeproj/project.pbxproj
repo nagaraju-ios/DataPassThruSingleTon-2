@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D70F808ECC6DB6D2CA9FB9 /* Pods_DataPassThruSingleTonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D611894DE7E4185524A36D8 /* Pods_DataPassThruSingleTonTests.framework */; };
 		175758D723854E73006AA4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175758D623854E73006AA4F1 /* AppDelegate.swift */; };
 		175758D923854E73006AA4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175758D823854E73006AA4F1 /* ViewController.swift */; };
 		175758DC23854E73006AA4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175758DA23854E73006AA4F1 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		175758E123854E79006AA4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175758DF23854E79006AA4F1 /* LaunchScreen.storyboard */; };
 		175758EC23854E79006AA4F1 /* DataPassThruSingleTonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175758EB23854E79006AA4F1 /* DataPassThruSingleTonTests.swift */; };
 		175758F723854E79006AA4F1 /* DataPassThruSingleTonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175758F623854E79006AA4F1 /* DataPassThruSingleTonUITests.swift */; };
+		175759052385540B006AA4F1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175759042385540B006AA4F1 /* SecondViewController.swift */; };
+		BC74C86E2B06B261B86195C5 /* Pods_DataPassThruSingleTonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8AA5937350B0C997E31275 /* Pods_DataPassThruSingleTonUITests.framework */; };
+		D19D6E7BD64A752A5D084FA0 /* Pods_DataPassThruSingleTon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CE4CC836BFC80D1F5A9769 /* Pods_DataPassThruSingleTon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01CE4CC836BFC80D1F5A9769 /* Pods_DataPassThruSingleTon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataPassThruSingleTon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		175758D323854E73006AA4F1 /* DataPassThruSingleTon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataPassThruSingleTon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175758D623854E73006AA4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		175758D823854E73006AA4F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		175758F223854E79006AA4F1 /* DataPassThruSingleTonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPassThruSingleTonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		175758F623854E79006AA4F1 /* DataPassThruSingleTonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassThruSingleTonUITests.swift; sourceTree = "<group>"; };
 		175758F823854E79006AA4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175759042385540B006AA4F1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1E7F6C294ED80E9F1A0ABDE5 /* Pods-DataPassThruSingleTon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataPassThruSingleTon.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataPassThruSingleTon/Pods-DataPassThruSingleTon.release.xcconfig"; sourceTree = "<group>"; };
+		207CBFC679167A7F483C4F70 /* Pods-DataPassThruSingleTonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataPassThruSingleTonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataPassThruSingleTonUITests/Pods-DataPassThruSingleTonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		415888E0D7AE30A552B44E01 /* Pods-DataPassThruSingleTonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataPassThruSingleTonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataPassThruSingleTonTests/Pods-DataPassThruSingleTonTests.release.xcconfig"; sourceTree = "<group>"; };
+		99A7C0361C0EB0CADF077B61 /* Pods-DataPassThruSingleTonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataPassThruSingleTonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataPassThruSingleTonTests/Pods-DataPassThruSingleTonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D611894DE7E4185524A36D8 /* Pods_DataPassThruSingleTonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataPassThruSingleTonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA948B2980F157743696DF3 /* Pods-DataPassThruSingleTonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataPassThruSingleTonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataPassThruSingleTonUITests/Pods-DataPassThruSingleTonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC8AA5937350B0C997E31275 /* Pods_DataPassThruSingleTonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataPassThruSingleTonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10A2C84371F64C15337E981 /* Pods-DataPassThruSingleTon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataPassThruSingleTon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataPassThruSingleTon/Pods-DataPassThruSingleTon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D19D6E7BD64A752A5D084FA0 /* Pods_DataPassThruSingleTon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D70F808ECC6DB6D2CA9FB9 /* Pods_DataPassThruSingleTonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC74C86E2B06B261B86195C5 /* Pods_DataPassThruSingleTonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				175758EA23854E79006AA4F1 /* DataPassThruSingleTonTests */,
 				175758F523854E79006AA4F1 /* DataPassThruSingleTonUITests */,
 				175758D423854E73006AA4F1 /* Products */,
+				3D279E1013C5AFDD850BC558 /* Pods */,
+				8D43A5610E479CA93A721ADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 			children = (
 				175758D623854E73006AA4F1 /* AppDelegate.swift */,
 				175758D823854E73006AA4F1 /* ViewController.swift */,
+				175759042385540B006AA4F1 /* SecondViewController.swift */,
 				175758DA23854E73006AA4F1 /* Main.storyboard */,
 				175758DD23854E79006AA4F1 /* Assets.xcassets */,
 				175758DF23854E79006AA4F1 /* LaunchScreen.storyboard */,
@@ -125,6 +145,29 @@
 			path = DataPassThruSingleTonUITests;
 			sourceTree = "<group>";
 		};
+		3D279E1013C5AFDD850BC558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E10A2C84371F64C15337E981 /* Pods-DataPassThruSingleTon.debug.xcconfig */,
+				1E7F6C294ED80E9F1A0ABDE5 /* Pods-DataPassThruSingleTon.release.xcconfig */,
+				99A7C0361C0EB0CADF077B61 /* Pods-DataPassThruSingleTonTests.debug.xcconfig */,
+				415888E0D7AE30A552B44E01 /* Pods-DataPassThruSingleTonTests.release.xcconfig */,
+				CEA948B2980F157743696DF3 /* Pods-DataPassThruSingleTonUITests.debug.xcconfig */,
+				207CBFC679167A7F483C4F70 /* Pods-DataPassThruSingleTonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D43A5610E479CA93A721ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01CE4CC836BFC80D1F5A9769 /* Pods_DataPassThruSingleTon.framework */,
+				9D611894DE7E4185524A36D8 /* Pods_DataPassThruSingleTonTests.framework */,
+				DC8AA5937350B0C997E31275 /* Pods_DataPassThruSingleTonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 175758FB23854E79006AA4F1 /* Build configuration list for PBXNativeTarget "DataPassThruSingleTon" */;
 			buildPhases = (
+				65D99D457453EB969C0439FF /* [CP] Check Pods Manifest.lock */,
 				175758CF23854E73006AA4F1 /* Sources */,
 				175758D023854E73006AA4F1 /* Frameworks */,
 				175758D123854E73006AA4F1 /* Resources */,
+				6402B9D90181E98F5E918BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 175758FE23854E79006AA4F1 /* Build configuration list for PBXNativeTarget "DataPassThruSingleTonTests" */;
 			buildPhases = (
+				738007AA343B8B81DFE167A5 /* [CP] Check Pods Manifest.lock */,
 				175758E323854E79006AA4F1 /* Sources */,
 				175758E423854E79006AA4F1 /* Frameworks */,
 				175758E523854E79006AA4F1 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1757590123854E79006AA4F1 /* Build configuration list for PBXNativeTarget "DataPassThruSingleTonUITests" */;
 			buildPhases = (
+				E438B1DEB3170DE761CBF808 /* [CP] Check Pods Manifest.lock */,
 				175758EE23854E79006AA4F1 /* Sources */,
 				175758EF23854E79006AA4F1 /* Frameworks */,
 				175758F023854E79006AA4F1 /* Resources */,
@@ -251,11 +298,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6402B9D90181E98F5E918BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DataPassThruSingleTon/Pods-DataPassThruSingleTon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataPassThruSingleTon/Pods-DataPassThruSingleTon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D99D457453EB969C0439FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataPassThruSingleTon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738007AA343B8B81DFE167A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataPassThruSingleTonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E438B1DEB3170DE761CBF808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataPassThruSingleTonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		175758CF23854E73006AA4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175759052385540B006AA4F1 /* SecondViewController.swift in Sources */,
 				175758D923854E73006AA4F1 /* ViewController.swift in Sources */,
 				175758D723854E73006AA4F1 /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +569,7 @@
 		};
 		175758FC23854E79006AA4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10A2C84371F64C15337E981 /* Pods-DataPassThruSingleTon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +587,7 @@
 		};
 		175758FD23854E79006AA4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7F6C294ED80E9F1A0ABDE5 /* Pods-DataPassThruSingleTon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +605,7 @@
 		};
 		175758FF23854E79006AA4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A7C0361C0EB0CADF077B61 /* Pods-DataPassThruSingleTonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +626,7 @@
 		};
 		1757590023854E79006AA4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415888E0D7AE30A552B44E01 /* Pods-DataPassThruSingleTonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +647,7 @@
 		};
 		1757590223854E79006AA4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA948B2980F157743696DF3 /* Pods-DataPassThruSingleTonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +667,7 @@
 		};
 		1757590323854E79006AA4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207CBFC679167A7F483C4F70 /* Pods-DataPassThruSingleTonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

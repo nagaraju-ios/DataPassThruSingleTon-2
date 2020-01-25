@@ -1,0 +1,6 @@
+framework module Pods_DataPassThruSingleTonUITests {
+  umbrella header "Pods-DataPassThruSingleTonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
